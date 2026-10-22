@@ -1,0 +1,3495 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<meta name="theme-color" content="#07152e">
+
+<meta name="description"
+content="Remnant of Lord Ministries — A Christian  Evangelist Elvis Sondera. Discover our vision, mission, leadership, evangelism, sermons and ministry activities in Burundi.">
+
+<title>Remnant of Lord Ministries | Official Ministry Website</title>
+
+<style>
+
+/* =========================================
+   1. GLOBAL SETTINGS
+========================================= */
+
+:root {
+    --navy: #07152e;
+    --blue: #123d80;
+    --gold: #f4c65e;
+    --light-gold: #ffe8a3;
+    --white: #ffffff;
+    --light: #f4f7fc;
+    --text: #243047;
+    --muted: #667085;
+    --green: #168b52;
+    --shadow: 0 15px 40px rgba(7, 21, 46, 0.12);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 90px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: var(--light);
+    color: var(--text);
+    line-height: 1.7;
+    overflow-x: hidden;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+/* ===== MINISTRY VIDEO SECTION ===== */
+.ministry-videos {
+padding: 70px 20px;
+background: linear-gradient(135deg, #071b14, #123b2b, #071b14);
+color: #ffffff;
+text-align: center;
+}
+
+.video-heading {
+max-width: 750px;
+margin: 0 auto 35px;
+}
+
+.video-label {
+display: inline-block;
+color: #f5c542;
+font-size: 13px;
+font-weight: bold;
+letter-spacing: 3px;
+margin-bottom: 12px;
+}
+
+.video-heading h2 {
+color: #f5c542;
+font-size: clamp(28px, 5vw, 42px);
+margin: 10px 0;
+}
+
+.video-heading p {
+color: #e0e8e3;
+font-size: 16px;
+line-height: 1.7;
+}
+
+.video-container {
+max-width: 900px;
+margin: 0 auto;
+overflow: hidden;
+background: #10251c;
+border: 1px solid rgba(245, 197, 66, 0.5);
+border-radius: 18px;
+box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.video-container:hover {
+transform: translateY(-5px);
+box-shadow: 0 20px 45px rgba(0, 0, 0, 0.5);
+}
+
+.video-container video {
+display: block;
+width: 100%;
+aspect-ratio: 16 / 9;
+object-fit: contain;
+background: #000000;
+}
+
+.video-info {
+padding: 20px;
+text-align: left;
+}
+
+.video-info h3 {
+color: #f5c542;
+font-size: 22px;
+margin: 0 0 8px;
+}
+
+.video-info p {
+color: #d4ded7;
+margin: 0;
+font-size: 14px;
+}
+
+@media (max-width: 600px) {
+.ministry-videos {
+padding: 45px 14px;
+}
+
+.video-container {
+    border-radius: 12px;
+}
+
+.video-info {
+    padding: 15px;
+}
+
+.video-info h3 {
+    font-size: 19px;
+}
+
+}
+/* ===== END VIDEO SECTION ===== */
+button {
+    font: inherit;
+    cursor: pointer;
+}
+
+.container {
+    width: min(1150px, 92%);
+    margin: auto;
+}
+
+.section {
+    padding: 90px 0;
+}
+
+.section-heading {
+    text-align: center;
+    max-width: 760px;
+    margin: 0 auto 50px;
+}
+
+.section-heading .eyebrow {
+    color: #b78313;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.section-heading h2 {
+    font-size: clamp(30px, 5vw, 44px);
+    line-height: 1.2;
+    color: var(--navy);
+    margin: 12px 0 18px;
+}
+
+.section-heading p {
+    color: var(--muted);
+}
+
+.gold-text {
+    color: var(--gold);
+}
+
+.gradient-text {
+    background: linear-gradient(
+        90deg,
+        #f4c65e,
+        #fff0bb,
+        #d7a42c,
+        #f4c65e
+    );
+
+    background-size: 300% auto;
+
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    color: transparent;
+
+    animation: gradientMove 5s linear infinite;
+}
+
+@keyframes gradientMove {
+    to {
+        background-position: 300% center;
+    }
+}
+
+
+/* =========================================
+   2. TOP ANNOUNCEMENT BAR
+========================================= */
+
+.top-bar {
+    background: var(--navy);
+    color: white;
+    padding: 9px 0;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 1px;
+    border-bottom: 1px solid rgba(244,198,94,.35);
+}
+
+.top-bar span {
+    color: var(--gold);
+    font-weight: bold;
+}
+
+
+/* =========================================
+   3. NAVIGATION
+========================================= */
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: rgba(255,255,255,.96);
+    backdrop-filter: blur(15px);
+    box-shadow: 0 4px 20px rgba(0,0,0,.06);
+}
+
+.navbar {
+    min-height: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    min-width: 0;
+}
+
+.brand img {
+    width: 76px;
+    height: 76px;
+    object-fit: contain;
+    flex-shrink: 0;
+    transition: transform .4s ease;
+}
+
+.brand img:hover {
+    transform: rotate(-5deg) scale(1.06);
+}
+
+.brand-name {
+    font-size: 16px;
+    line-height: 1.3;
+    font-weight: 900;
+    color: var(--navy);
+    text-transform: uppercase;
+}
+
+.brand-name small {
+    display: block;
+    font-size: 10px;
+    color: #b78313;
+    letter-spacing: 2px;
+    margin-top: 5px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    list-style: none;
+}
+
+.nav-links a {
+    font-size: 12px;
+    font-weight: 800;
+    color: var(--navy);
+    transition: color .3s ease;
+}
+
+.nav-links a:hover {
+    color: #b78313;
+}
+
+.nav-contact {
+    padding: 11px 17px;
+    background: var(--navy);
+    color: white !important;
+    border-radius: 30px;
+}
+
+.menu-toggle {
+    display: none;
+    border: none;
+    background: var(--navy);
+    color: white;
+    width: 44px;
+    height: 44px;
+    border-radius: 10px;
+    font-size: 23px;
+}
+
+
+/* =========================================
+   4. HERO / WELCOME SECTION
+========================================= */
+
+.hero {
+    min-height: 680px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: white;
+    overflow: hidden;
+
+    background:
+        linear-gradient(
+            90deg,
+            rgba(4,12,28,.92) 0%,
+            rgba(4,12,28,.72) 52%,
+            rgba(4,12,28,.40) 100%
+        ),
+        url("./IMG-20261017-WA0144.jpg")
+        center 35% / cover no-repeat;
+
+    animation: heroZoom 24s ease-in-out infinite alternate;
+}
+
+@keyframes heroZoom {
+    from {
+        background-size: 100% auto;
+    }
+
+    to {
+        background-size: 110% auto;
+    }
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background: linear-gradient(
+        120deg,
+        transparent 20%,
+        rgba(244,198,94,.12) 50%,
+        transparent 80%
+    );
+
+    background-size: 200% 100%;
+    animation: lightSweep 9s linear infinite;
+    pointer-events: none;
+}
+
+@keyframes lightSweep {
+    from {
+        background-position: -200% center;
+    }
+
+    to {
+        background-position: 200% center;
+    }
+}
+
+.hero::after {
+    content: "";
+    position: absolute;
+    left: -10%;
+    bottom: -160px;
+    width: 120%;
+    height: 230px;
+    border-radius: 50%;
+    background: var(--light);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 800px;
+    padding: 95px 0 160px;
+    animation: fadeUp 1.2s ease both;
+}
+
+.hero-badge {
+    display: inline-block;
+    padding: 9px 16px;
+    border: 1px solid rgba(244,198,94,.6);
+    border-radius: 30px;
+    background: rgba(244,198,94,.12);
+    color: var(--light-gold);
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+}
+
+.hero h1 {
+    font-size: clamp(38px, 7vw, 76px);
+    line-height: 1.08;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    letter-spacing: -1.5px;
+}
+
+.hero h1 span {
+    display: block;
+}
+
+.hero p {
+    max-width: 670px;
+    font-size: 17px;
+    color: #e0e8f5;
+    margin-bottom: 30px;
+}
+
+.hero-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    padding: 15px 23px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 900;
+    transition: transform .3s, box-shadow .3s;
+}
+
+.btn:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 25px rgba(0,0,0,.2);
+}
+
+.btn-gold {
+    background: linear-gradient(
+        110deg,
+        #dba52d,
+        #ffe6a0,
+        #dba52d
+    );
+    background-size: 200% auto;
+    color: var(--navy);
+    animation: goldShine 4s linear infinite;
+}
+
+@keyframes goldShine {
+    to {
+        background-position: 200% center;
+    }
+}
+
+.btn-outline {
+    color: white;
+    border: 1px solid rgba(255,255,255,.7);
+    background: rgba(255,255,255,.07);
+}
+
+
+/* =========================================
+   5. PILLARS STRIP
+========================================= */
+
+.pillars-strip {
+    position: relative;
+    z-index: 3;
+    margin-top: -48px;
+}
+
+.pillars-inner {
+    background: white;
+    border-radius: 16px;
+    box-shadow: var(--shadow);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    overflow: hidden;
+}
+
+.pillar {
+    text-align: center;
+    padding: 28px 15px;
+    border-right: 1px solid #edf0f5;
+}
+
+.pillar:last-child {
+    border-right: none;
+}
+
+.pillar .icon {
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+.pillar h3 {
+    color: var(--navy);
+    font-size: 17px;
+}
+
+
+/* =========================================
+   6. GENERAL CARDS
+========================================= */
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(7,21,46,.05);
+    border: 1px solid #edf0f5;
+    transition: transform .4s, box-shadow .4s;
+}
+
+.card:hover {
+    transform: translateY(-9px);
+    box-shadow: var(--shadow);
+}
+
+.card-icon {
+    width: 58px;
+    height: 58px;
+    display: grid;
+    place-items: center;
+    border-radius: 15px;
+    background: linear-gradient(135deg, #fff0bf, #fffaf0);
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    color: var(--navy);
+    margin-bottom: 12px;
+    font-size: 20px;
+}
+
+.card p {
+    font-size: 14px;
+    color: var(--muted);
+}
+
+
+/* =========================================
+   7. VISION AND MISSION
+========================================= */
+
+.vision-section {
+    padding-top: 65px;
+}
+
+.vision-card {
+    border-top: 4px solid var(--gold);
+}
+
+.vision-card ul {
+    padding-left: 20px;
+    color: var(--muted);
+    font-size: 14px;
+}
+
+.vision-card li {
+    margin-bottom: 12px;
+}
+
+.declaration {
+    margin-top: 40px;
+    padding: 45px 25px;
+    text-align: center;
+    border-radius: 18px;
+    color: white;
+    background: linear-gradient(120deg, #07152e, #174c91, #07152e);
+    background-size: 200% 200%;
+    animation: blueFlow 10s ease infinite;
+}
+
+@keyframes blueFlow {
+    0%, 100% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+}
+
+.declaration h3 {
+    font-size: 13px;
+    letter-spacing: 4px;
+    color: var(--gold);
+    margin-bottom: 10px;
+}
+
+.declaration p {
+    font-size: clamp(25px, 4vw, 38px);
+    font-weight: 900;
+}
+
+.bible-verse {
+    margin-top: 22px;
+    color: #e4ebf8;
+    font-size: 14px;
+    max-width: 780px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* =========================================
+   8. ABOUT US
+========================================= */
+
+.about-section {
+    background: white;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 55px;
+}
+
+.about-image {
+    position: relative;
+}
+
+.about-image img {
+    width: 100%;
+    height: 460px;
+    object-fit: cover;
+    border-radius: 18px;
+    box-shadow: var(--shadow);
+}
+
+.about-image::after {
+    content: "FOUNDED • 25 NOVEMBER 2010";
+    position: absolute;
+    bottom: -15px;
+    right: -15px;
+    background: var(--gold);
+    color: var(--navy);
+    font-size: 11px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    padding: 17px;
+    border-radius: 8px;
+}
+
+.about-content .eyebrow {
+    color: #b78313;
+    font-weight: 900;
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+
+.about-content h2 {
+    font-size: clamp(30px, 5vw, 43px);
+    line-height: 1.2;
+    color: var(--navy);
+    margin: 12px 0 22px;
+}
+
+.about-content p {
+    color: var(--muted);
+    margin-bottom: 17px;
+    font-size: 15px;
+}
+
+.about-list {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.about-list li {
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: var(--navy);
+    font-size: 14px;
+}
+
+.about-list li::before {
+    content: "✦";
+    color: #b78313;
+    margin-right: 10px;
+}
+
+
+/* =========================================
+   9. MISSION FIELDS
+========================================= */
+
+.mission-fields {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+}
+
+.field {
+    min-height: 150px;
+    background: white;
+    padding: 25px 15px;
+    border-radius: 13px;
+    border: 1px solid #e8edf5;
+    text-align: center;
+    transition: all .35s ease;
+}
+
+.field:hover {
+    background: var(--navy);
+    color: white;
+    transform: translateY(-6px);
+}
+
+.field span {
+    display: block;
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.field h3 {
+    font-size: 14px;
+}
+
+
+/* =========================================
+   10. LEADERSHIP
+========================================= */
+
+.leadership-section {
+    background: #edf2fa;
+}
+
+.leaders-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+}
+
+.leader-card {
+    background: white;
+    border-radius: 14px;
+    padding: 28px 20px;
+    text-align: center;
+    box-shadow: 0 8px 24px rgba(7,21,46,.05);
+    border-bottom: 3px solid transparent;
+    transition: .35s ease;
+}
+
+.leader-card:hover {
+    transform: translateY(-7px);
+    border-bottom-color: var(--gold);
+}
+
+.leader-avatar {
+    width: 75px;
+    height: 75px;
+    margin: 0 auto 16px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--navy), #2459a0);
+    color: var(--gold);
+    font-size: 25px;
+    font-weight: 900;
+    border: 4px solid #f6e5ad;
+}
+
+.leader-card h3 {
+    color: var(--navy);
+    font-size: 16px;
+    margin-bottom: 7px;
+}
+
+.leader-card p {
+    color: #b78313;
+    font-weight: 800;
+    font-size: 12px;
+}
+
+.leadership-note {
+    max-width: 800px;
+    text-align: center;
+    margin: 35px auto 0;
+    color: var(--muted);
+}
+
+
+/* =========================================
+   11. GALLERY
+========================================= */
+
+.gallery-section {
+    background: white;
+}
+
+.gallery-filters {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 35px;
+}
+
+.filter-btn {
+    padding: 10px 17px;
+    border: 1px solid #dce3ef;
+    border-radius: 30px;
+    background: white;
+    color: var(--navy);
+    font-size: 12px;
+    font-weight: 800;
+    transition: .3s;
+}
+
+.filter-btn.active,
+.filter-btn:hover {
+    background: var(--navy);
+    color: white;
+    border-color: var(--navy);
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.gallery-item {
+    position: relative;
+    min-height: 250px;
+    border-radius: 13px;
+    overflow: hidden;
+    background: #dce5f2;
+    box-shadow: 0 8px 22px rgba(7,21,46,.1);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    transition: transform .7s ease;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.09);
+}
+
+.gallery-caption {
+    position: absolute;
+    inset: auto 0 0;
+    padding: 35px 20px 18px;
+    background: linear-gradient(transparent, rgba(3,10,25,.92));
+    color: white;
+}
+
+.gallery-caption h3 {
+    font-size: 16px;
+}
+
+.gallery-caption p {
+    font-size: 12px;
+    color: #dce5f2;
+}
+
+.gallery-item[hidden] {
+    display: none;
+}
+
+
+/* =========================================
+   12. SERMONS AND TEACHINGS
+========================================= */
+
+.sermons-section {
+    background: var(--navy);
+    color: white;
+}
+
+.sermons-section .section-heading h2 {
+    color: white;
+}
+
+.sermons-section .section-heading p {
+    color: #c8d4e7;
+}
+
+.sermon-card {
+    background: rgba(255,255,255,.06);
+    border: 1px solid rgba(255,255,255,.13);
+    padding: 30px;
+    border-radius: 15px;
+    transition: .35s;
+}
+
+.sermon-card:hover {
+    background: rgba(255,255,255,.11);
+    transform: translateY(-6px);
+}
+
+.sermon-icon {
+    font-size: 35px;
+    margin-bottom: 17px;
+}
+
+.sermon-card h3 {
+    color: var(--gold);
+    margin-bottom: 12px;
+    font-size: 19px;
+}
+
+.sermon-card p {
+    color: #d1dced;
+    font-size: 14px;
+}
+
+.sermon-note {
+    margin-top: 35px;
+    text-align: center;
+    color: #d1dced;
+    font-size: 14px;
+}
+
+
+/* =========================================
+   13. LOCATION
+========================================= */
+
+.location-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: stretch;
+}
+
+.location-card {
+    padding: 35px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: var(--shadow);
+}
+
+.location-card h3 {
+    color: var(--navy);
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.location-line {
+    display: flex;
+    gap: 14px;
+    padding: 13px 0;
+    border-bottom: 1px solid #edf0f5;
+}
+
+.location-line span {
+    font-size: 22px;
+}
+
+.location-line strong {
+    color: var(--navy);
+    display: block;
+}
+
+.location-line p {
+    color: var(--muted);
+    font-size: 14px;
+}
+
+.location-welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 35px;
+    border-radius: 15px;
+    background: linear-gradient(135deg, #0b234b, #174c91);
+    color: white;
+}
+
+.location-welcome h3 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: var(--gold);
+}
+
+.location-welcome p {
+    color: #e0e8f5;
+    margin-bottom: 25px;
+}
+
+
+/* =========================================
+   14. CONTACT
+========================================= */
+
+.contact-section {
+    background: white;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 35px;
+}
+
+.contact-intro h3 {
+    color: var(--navy);
+    font-size: 28px;
+    margin-bottom: 17px;
+}
+
+.contact-intro p {
+    color: var(--muted);
+    margin-bottom: 25px;
+}
+
+.contact-method {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 18px;
+    border: 1px solid #e7ecf4;
+    border-radius: 12px;
+    margin-bottom: 13px;
+    transition: .3s;
+}
+
+.contact-method:hover {
+    transform: translateX(5px);
+    box-shadow: 0 8px 20px rgba(7,21,46,.07);
+}
+
+.contact-icon {
+    width: 48px;
+    height: 48px;
+    display: grid;
+    place-items: center;
+    border-radius: 12px;
+    background: #edf3ff;
+    font-size: 23px;
+    flex-shrink: 0;
+}
+
+.contact-method strong {
+    display: block;
+    color: var(--navy);
+    font-size: 14px;
+}
+
+.contact-method p {
+    margin: 0;
+    font-size: 13px;
+    color: var(--muted);
+    overflow-wrap: anywhere;
+}
+
+.social-card {
+    background: #f4f7fc;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.social-card h3 {
+    color: var(--navy);
+    margin-bottom: 15px;
+}
+
+.social-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px 0;
+    border-bottom: 1px solid #dfe6f0;
+    gap: 15px;
+    font-size: 14px;
+    font-weight: 800;
+    color: var(--navy);
+}
+
+.social-link span {
+    color: #b78313;
+    font-size: 12px;
+}
+
+
+/* =========================================
+   15. FOOTER
+========================================= */
+
+footer {
+    background: #030b19;
+    color: white;
+    padding: 55px 0 20px;
+}
+
+.footer-top {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    gap: 35px;
+    padding-bottom: 35px;
+}
+
+.footer-brand {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 18px;
+}
+
+.footer-brand img {
+    width: 85px;
+    height: 85px;
+    object-fit: contain;
+}
+
+.footer-brand h3 {
+    font-size: 17px;
+    line-height: 1.4;
+}
+
+.footer-about p,
+.footer-column p {
+    color: #bdc8db;
+    font-size: 13px;
+}
+
+.footer-column h4 {
+    color: var(--gold);
+    margin-bottom: 15px;
+}
+
+.footer-column a {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 13px;
+    color: #bdc8db;
+}
+
+.footer-column a:hover {
+    color: var(--gold);
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255,255,255,.12);
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-size: 12px;
+    color: #aab6c9;
+}
+
+
+/* =========================================
+   16. WHATSAPP FLOATING BUTTON
+========================================= */
+
+.whatsapp-float {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 900;
+    width: 58px;
+    height: 58px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #19b967;
+    color: white;
+    font-size: 28px;
+    box-shadow: 0 8px 25px rgba(0,0,0,.22);
+    animation: whatsappPulse 2.5s infinite;
+}
+
+@keyframes whatsappPulse {
+    0%, 100% {
+        box-shadow: 0 0 0 0 rgba(25,185,103,.45);
+    }
+
+    50% {
+        box-shadow: 0 0 0 12px rgba(25,185,103,0);
+    }
+}
+
+
+/* =========================================
+   17. BACK TO TOP
+========================================= */
+
+.back-top {
+    position: fixed;
+    bottom: 90px;
+    right: 25px;
+    z-index: 850;
+    border: none;
+    width: 42px;
+    height: 42px;
+    border-radius: 10px;
+    background: var(--navy);
+    color: white;
+    font-size: 20px;
+    display: none;
+}
+
+.back-top.visible {
+    display: block;
+}
+
+
+/* =========================================
+   18. SCROLL ANIMATIONS
+========================================= */
+
+.reveal {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity .8s ease, transform .8s ease;
+}
+
+.reveal.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* =========================================
+   19. RESPONSIVE MOBILE DESIGN
+========================================= */
+
+@media (max-width: 1000px) {
+
+    .nav-links {
+        gap: 13px;
+    }
+
+    .nav-links a {
+        font-size: 11px;
+    }
+
+    .brand img {
+        width: 65px;
+        height: 65px;
+    }
+
+    .brand-name {
+        font-size: 13px;
+    }
+
+    .mission-fields {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+@media (max-width: 800px) {
+
+    .section {
+        padding: 70px 0;
+    }
+
+    .menu-toggle {
+        display: block;
+        flex-shrink: 0;
+    }
+
+    .navbar {
+        min-height: 78px;
+    }
+
+    .brand img {
+        width: 62px;
+        height: 62px;
+    }
+
+    .nav-links {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: white;
+        padding: 20px 5%;
+        display: none;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+        box-shadow: 0 15px 25px rgba(0,0,0,.1);
+        max-height: 75vh;
+        overflow-y: auto;
+    }
+
+    .nav-links.open {
+        display: flex;
+    }
+
+    .nav-links li {
+        border-bottom: 1px solid #edf0f5;
+    }
+
+    .nav-links a {
+        display: block;
+        padding: 13px 5px;
+        font-size: 14px;
+    }
+
+    .nav-contact {
+        display: inline-block !important;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .hero {
+        min-height: 600px;
+        background-position: 55% center;
+    }
+
+    .hero-content {
+        padding: 80px 0 140px;
+    }
+
+    .hero p {
+        font-size: 15px;
+    }
+
+    .cards,
+    .leaders-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .about-grid,
+    .location-grid,
+    .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+
+    .about-image img {
+        height: 380px;
+    }
+
+    .mission-fields {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-top {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media (max-width: 520px) {
+
+    .top-bar {
+        font-size: 10px;
+        padding: 8px 5px;
+    }
+
+    .brand {
+        gap: 8px;
+    }
+
+    .brand img {
+        width: 54px;
+        height: 54px;
+    }
+
+    .brand-name {
+        font-size: 11px;
+    }
+
+    .brand-name small {
+        font-size: 8px;
+        letter-spacing: 1px;
+    }
+
+    .hero {
+        min-height: 610px;
+        background-position: 57% center;
+    }
+
+    .hero-content {
+        padding-top: 65px;
+    }
+
+    .hero h1 {
+        font-size: 37px;
+    }
+
+    .hero p {
+        font-size: 14px;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .btn {
+        padding: 13px 18px;
+    }
+
+    .pillars-inner {
+        grid-template-columns: 1fr;
+    }
+
+    .pillar {
+        padding: 17px;
+        border-right: none;
+        border-bottom: 1px solid #edf0f5;
+    }
+
+    .pillar:last-child {
+        border-bottom: none;
+    }
+
+    .cards,
+    .leaders-grid,
+    .gallery-grid,
+    .mission-fields {
+        grid-template-columns: 1fr;
+    }
+
+    .card {
+        padding: 25px;
+    }
+
+    .gallery-item img {
+        height: 280px;
+    }
+
+    .about-image img {
+        height: 310px;
+    }
+
+    .about-image::after {
+        right: 5px;
+        bottom: -12px;
+        font-size: 9px;
+    }
+
+    .location-card,
+    .location-welcome,
+    .social-card {
+        padding: 24px;
+    }
+
+    .footer-top {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+    }
+
+}
+
+/* Respect visitors who prefer reduced motion. */
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        scroll-behavior: auto !important;
+        transition-duration: 0.01ms !important;
+    }
+
+    .reveal {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+</style>
+</head>
+
+
+<body>
+
+<!-- ======================================
+     TOP BAR
+======================================= -->
+
+<div class="top-bar">
+    WELCOME TO <span>REMNANT OF LORD MINISTRIES</span>
+    &nbsp; | &nbsp; LOVE • DIRECTION • POWER
+</div>
+
+
+<!-- ======================================
+     HEADER
+======================================= -->
+
+<header>
+
+    <div class="container navbar">
+
+        <a href="#home" class="brand">
+
+            <img src="./LOGO%20png.png" >
+                
+                
+
+            <div class="brand-name">
+
+                Remnant of Lord Ministries
+
+                <small>LOVE • DIRECTION • POWER</small>
+
+            </div>
+
+        </a>
+
+
+        <button
+            class="menu-toggle"
+            id="menuToggle"
+            aria-label="Open navigation menu"
+            aria-expanded="false"
+            aria-controls="navLinks">
+
+            ☰
+
+        </button>
+
+
+        <ul class="nav-links" id="navLinks">
+
+            <li><a href="#home">Home</a></li>
+
+            <li><a href="#about">About Us</a></li>
+
+            <li><a href="#vision">Our Vision</a></li>
+
+            <li><a href="#leadership">Leadership</a></li>
+
+            <li><a href="#gallery">Gallery</a></li>
+
+            <li><a href="#sermons">Sermons</a></li>
+
+            <li><a href="#location">Location</a></li>
+                
+                <li><a href="#video">our video</a></li>
+          
+          
+            
+                <a href="#contact" class="nav-contact">
+                    Contact Us
+                </a></li>
+
+        </ul>
+
+    </div>
+
+</header>
+
+
+<main>
+
+<!-- ======================================
+     HERO SECTION
+======================================= -->
+
+<section class="hero" id="home">
+
+    <div class="container">
+
+        <div class="hero-content">
+
+            <div class="hero-badge">
+                A MINISTRY OF FAITH, LOVE AND PURPOSE
+            </div>
+
+
+            <h1>
+
+                Remnant of
+
+                <span class="gradient-text">
+                    Lord Ministries
+                </span>
+
+            </h1>
+
+
+            <p>
+
+                We are a family of believers united through the
+                Good News of Jesus Christ and the power of the
+                Holy Spirit to save, heal, deliver, and rebuild
+                on the foundations of faith, love, and purpose.
+
+            </p>
+
+
+            <div class="hero-buttons">
+
+                <a href="#about" class="btn btn-gold">
+
+                    Discover Our Ministry →
+
+                </a>
+
+
+                <a href="#contact" class="btn btn-outline">
+
+                    Connect With Us
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ======================================
+     PILLARS
+======================================= -->
+
+<div class="container pillars-strip">
+
+    <div class="pillars-inner">
+
+        <div class="pillar">
+
+            <div class="icon">❤️</div>
+
+            <h3>LOVE</h3>
+
+        </div>
+
+
+        <div class="pillar">
+
+            <div class="icon">🧭</div>
+
+            <h3>DIRECTION</h3>
+
+        </div>
+
+
+        <div class="pillar">
+
+            <div class="icon">🔥</div>
+
+            <h3>POWER</h3>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<!-- ======================================
+     VISION AND MISSION
+======================================= -->
+
+<section class="section vision-section" id="vision">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+
+            <span class="eyebrow">
+                Our Foundation
+            </span>
+
+            <h2>
+                Our Vision, Mission &amp; Purpose
+            </h2>
+
+            <p>
+                We desire to see lives transformed through
+                Jesus Christ and the power of the Holy Spirit.
+            </p>
+
+        </div>
+
+
+        <div class="cards">
+
+            <article class="card vision-card reveal">
+
+                <div class="card-icon">👁️</div>
+
+                <h3>Our Vision</h3>
+
+                <ul>
+
+                    <li>
+                        To see people in a passionate pursuit
+                        of Jesus Christ in every area of their lives.
+                    </li>
+
+                    <li>
+                        To see lives changed by the power
+                        of the Holy Spirit.
+                    </li>
+
+                    <li>
+                        To see the Church rise up and become
+                        the Church God is calling it to be in this time.
+                    </li>
+
+                </ul>
+
+            </article>
+
+
+            <article class="card vision-card reveal">
+
+                <div class="card-icon">✝️</div>
+
+                <h3>Our Mission</h3>
+
+                <p>
+
+                    We are a family of believers united through
+                    the Good News of Jesus Christ and the power
+                    of the Holy Spirit to save, heal, deliver,
+                    and rebuild on the foundations of faith,
+                    love, and purpose.
+
+                </p>
+
+            </article>
+
+
+            <article class="card vision-card reveal">
+
+                <div class="card-icon">🌍</div>
+
+                <h3>Our Purpose</h3>
+
+                <p>
+
+                    To fulfill the Great Commission by reaching
+                    people from every walk of life with the
+                    message of salvation, hope, healing,
+                    and transformation through Jesus Christ.
+
+                </p>
+
+            </article>
+
+        </div>
+
+
+        <div class="declaration reveal">
+
+            <h3>OUR DECLARATION</h3>
+
+            <p class="gradient-text">
+                We Are the Spirit of Dominion
+            </p>
+
+            <div class="bible-verse">
+
+                <strong>BIBLE VERSE — ISAIAH 1:9</strong>
+
+                <br><br>
+
+                “Except the Lord of hosts had left us a very
+                small remnant [of survivors], we should have
+                been like Sodom, and we should have been
+                like Gomorrah.”
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ======================================
+     ABOUT US
+======================================= -->
+
+<section class="section about-section" id="about">
+
+    <div class="container about-grid">
+
+        <div class="about-image reveal">
+
+            <img
+                src=" ./IMG-20261017-WA0126.jpg"
+                alt="Evangelist Elvis Sondera ministering"
+                loading="lazy">
+
+        </div>
+
+
+        <div class="about-content reveal">
+
+            <span class="eyebrow">
+                Get to Know Us
+            </span>
+
+            <h2>
+                A Ministry Called to Transform Lives
+            </h2>
+
+            <p>
+
+                Remnant of Lord Ministries is a Christian
+                ministry founded on November 25, 2010,
+                by Evangelist Elvis Sondera, following
+                a divine calling and vision received from God.
+
+            </p>
+
+            <p>
+
+                The ministry was established in obedience
+                to God's calling, with a mission to transform
+                people into disciples of Jesus Christ and
+                raise a remnant of believers committed to
+                following Christ and spreading the Gospel.
+
+            </p>
+
+            <p>
+
+                We believe that the Gospel must reach every
+                community, every generation, and every sphere
+                of society.
+
+            </p>
+
+
+            <ul class="about-list">
+
+                <li>Sharing the message of salvation.</li>
+
+                <li>Strengthening believers through the Word.</li>
+
+                <li>Promoting prayer and spiritual growth.</li>
+
+                <li>Making disciples of Jesus Christ.</li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ======================================
+     MISSION FIELDS
+======================================= -->
+
+<section class="section" id="mission-fields">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+
+            <span class="eyebrow">
+                Reaching the World
+            </span>
+
+            <h2>Our Mission Fields</h2>
+
+            <p>
+
+                We carry the Gospel to people wherever
+                God opens doors.
+
+            </p>
+
+        </div>
+
+
+        <div class="mission-fields">
+
+            <article class="field reveal">
+
+                <span>🏘️</span>
+
+                <h3>Communities &amp; Neighborhoods</h3>
+
+            </article>
+
+
+            <article class="field reveal">
+
+                <span>🛍️</span>
+
+                <h3>Markets</h3>
+
+            </article>
+
+
+            <article class="field reveal">
+
+                <span>⚽</span>
+
+                <h3>Sports Outreach</h3>
+
+            </article>
+
+
+            <article class="field reveal">
+
+                <span>💃</span>
+
+                <h3>Dance &amp; the Arts</h3>
+
+            </article>
+
+
+            <article class="field reveal">
+
+                <span>⛪</span>
+
+                <h3>Churches</h3>
+
+            </article>
+
+
+            <article class="field reveal">
+
+                <span>🤝</span>
+
+                <h3>Prisons</h3>
+
+            </article>
+
+
+            <article class="field reveal">
+
+                <span>🏥</span>
+
+                <h3>Hospitals</h3>
+
+            </article>
+
+
+            <article class="field reveal">
+
+                <span>🌐</span>
+
+                <h3>The Internet</h3>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ======================================
+     LEADERSHIP
+======================================= -->
+
+<section class="section leadership-section" id="leadership">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+
+            <span class="eyebrow">
+                Serving Together
+            </span>
+
+            <h2>Meet Our Leadership Team</h2>
+
+            <p>
+
+                Our leaders are committed to spreading the Gospel,
+                discipling believers, and advancing God's Kingdom.
+
+            </p>
+
+        </div>
+
+
+        <div class="leaders-grid">
+
+
+            <article class="leader-card reveal">
+
+                <div class="leader-avatar">SE</div>
+
+                <h3>SONDERA ELVIS</h3>
+
+                <p>Founder and President</p>
+
+            </article>
+
+
+            <article class="leader-card reveal">
+
+                <div class="leader-avatar">NY</div>
+
+                <h3>NKURUNZIZA YVAN</h3>
+
+                <p>Secretary General</p>
+
+            </article>
+
+
+            <article class="leader-card reveal">
+
+                <div class="leader-avatar">HY</div>
+
+                <h3>HAKIZIMANA YVES</h3>
+
+                <p>Evangelism Department</p>
+
+            </article>
+
+
+            <article class="leader-card reveal">
+
+                <div class="leader-avatar">MI</div>
+
+                <h3>MWAMBA IBRAHIM</h3>
+
+                <p>Leadership Team Member</p>
+
+            </article>
+
+
+            <article class="leader-card reveal">
+
+                <div class="leader-avatar">BO</div>
+
+                <h3>BUKURU OLIVIER</h3>
+
+                <p>Vice President</p>
+
+            </article>
+
+
+            <article class="leader-card reveal">
+
+                <div class="leader-avatar">BP</div>
+
+                <h3>BUTOYI PROSPER</h3>
+
+                <p>Youth Department</p>
+
+            </article>
+
+
+            <article class="leader-card reveal">
+
+                <div class="leader-avatar">IG</div>
+
+                <h3>IRANKUNDA GRACE</h3>
+
+                <p>Intercession Department</p>
+
+            </article>
+
+
+            <article class="leader-card reveal">
+
+                <div class="leader-avatar">ID</div>
+
+                <h3>ITANGISHAKA DAVID</h3>
+
+                <p>Director of All Departments</p>
+
+            </article>
+
+
+            <article class="leader-card reveal">
+
+                <div class="leader-avatar">IO</div>
+
+                <h3>ICUBURUNDI OLIVIER</h3>
+
+                <p>Coordinator</p>
+
+            </article>
+
+
+        </div>
+
+
+        <p class="leadership-note reveal">
+
+            Our leadership team is committed to serving God
+            faithfully, equipping believers, promoting unity,
+            and advancing the mission of Jesus Christ through
+            evangelism, prayer, discipleship, and spiritual growth.
+
+        </p>
+
+    </div>
+
+</section>
+
+
+
+<!-- ======================================
+     MINISTRY GALLERY
+======================================= -->
+
+<section class="section gallery-section" id="gallery">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+
+            <span class="eyebrow">
+                Our Activities
+            </span>
+
+            <h2>Ministry in Action</h2>
+
+            <p>
+
+                Discover moments from our ministry,
+                evangelism, prayer gatherings, and community
+                outreach activities.
+
+            </p>
+
+        </div>
+
+
+        <div class="gallery-filters">
+
+            <button
+                class="filter-btn active"
+                data-filter="all">
+
+                All Activities
+
+            </button>
+
+            <button
+                class="filter-btn"
+                data-filter="prayer">
+
+                Prayer &amp; Ministry
+
+            </button>
+
+            <button
+                class="filter-btn"
+                data-filter="evangelism">
+
+                Evangelism
+
+            </button>
+
+            <button
+                class="filter-btn"
+                data-filter="sports">
+
+                Sports Outreach
+
+            </button>
+
+            <button
+                class="filter-btn"
+                data-filter="people">
+
+                Fellowship
+
+            </button>
+
+        </div>
+
+
+        <div class="gallery-grid">
+
+
+            <!-- PRAYER AND MINISTRY -->
+
+            <article class="gallery-item reveal"
+                     data-category="prayer">
+
+                <img
+                    src="./IMG-20261017-WA0114.jpg"
+                    alt="Ministry prayer activity"
+                    loading="lazy">
+
+                <div class="gallery-caption">
+
+                    <h3>Prayer &amp; Ministry</h3>
+
+                    <p>Serving people through prayer.</p>
+
+                </div>
+
+            </article>
+
+
+            <article class="gallery-item reveal"
+                     data-category="prayer">
+
+                <img
+                    src="./IMG-20261017-WA0121.jpg"
+                    alt="Ministry gathering"
+                    loading="lazy">
+
+                <div class="gallery-caption">
+
+                    <h3>Ministry Gathering</h3>
+
+                    <p>Growing together in faith.</p>
+
+                </div>
+
+            </article>
+
+
+            <article class="gallery-item reveal"
+                     data-category="prayer">
+
+                <img
+                    src="./IMG-20261017-WA0140.jpg"
+                    alt="Ministry teaching"
+                    loading="lazy">
+
+                <div class="gallery-caption">
+
+                    <h3>Teaching &amp; Encouragement</h3>
+
+                    <p>Sharing the Word of God.</p>
+
+                </div>
+
+            </article>
+
+
+            <article class="gallery-item reveal"
+                     data-category="prayer">
+
+                <img
+                    src="./IMG-20261017-WA0339 (1).jpg"
+                    alt="Ministry leader"
+                    loading="lazy">
+
+                <div class="gallery-caption">
+
+                    <h3>Ministry Leadership</h3>
+
+                    <p>Committed to God's calling.</p>
+
+                </div>
+
+            </article>
+
+
+            <article class="gallery-item reveal"
+                     data-category="prayer">
+
+                <img
+                    src="./IMG-20261017-WA0126.jpg"
+                    alt="Evangelist speaking"
+                    loading="lazy">
+
+                <div class="gallery-caption">
+
+                    <h3>Preaching the Gospel</h3>
+
+                    <p>Proclaiming the Good News.</p>
+
+                </div>
+
+            </article>
+
+
+            <article class="gallery-item reveal"
+                     data-category="prayer">
+
+                <img
+                    src="./IMG-20261017-WA0127.jpg"
+                    alt="Ministry preaching"
+                    loading="lazy">
+
+                <div class="gallery-caption">
+
+                    <h3>Sharing the Word</h3>
+
+                    <p>Encouraging believers in Christ.</p>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- EVANGELISM -->
+
+            <article class="gallery-item reveal"
+                     data-category="evangelism">
+
+                <img
+                    src="./IMG-20261017-WA0364 (1).jpg"
+                    alt="Evangelism and ministry"
+                    loading="lazy">
+
+                <div class="gallery-caption">
+
+                    <h3>Evangelism</h3>
+
+                    <p>Reaching people with the Gospel.</p>
+
+                </div>
+
+            </article>
+
+
+            <article class="gallery-item reveal"
+                     data-category="evangelism">
+
+                <img
+                    src="./IMG-20261017-WA0322.jpg"
+                    alt="Sharing the Gospel"
+                    loading="lazy">
+
+                <div class="gallery-caption">
+
+                    <h3>Community Outreach</h3>
+
+                    <p>Sharing hope and encouragement.</p>
+
+                </div>
+
+            </article>
+
+
+            <article class="gallery-item reveal"
+                     data-category="evangelism">
+
+                <img
+                    src="./IMG-20261017-WA0286.jpg"
+                    alt="Evangelism activity"
+                    loading="lazy">
+
+                <div class="gallery-caption">
+
+                    <h3>Reaching Communities</h3>
+
+                    <p>Bringing people together in faith.</p>
+
+                </div>
+
+            </article>
+
+
+            <article class="gallery-item reveal"
+                     data-category="evangelism">
+
+                <img
+                    src="./IMG-20261017-WA0282.jpg"
+                    alt="Ministry team activity"
+                    loading="lazy">
+
+                <div class="gallery-caption">
+
+                    <h3>Ministry in Action</h3>
+
+                    <p>Working together in God's service.</p>
+
+                </div>
+
+            </article>
+
+
+            <article class="gallery-item reveal"
+                     data-category="evangelism">
+
+                <img
+                    src="./IMG-20261017-WA0283.jpg"
+                    alt="Ministry outreach"
+                    loading="lazy">
+
+                <div class ="gallery-caption">
+
+                    <h3>Outreach Ministry</h3>
+
+                    <p>Serving with love and compassion.</p>
+
+                </div>
+
+            </article>
+
+
+            <article class="gallery-item reveal"
+                     data-category="evangelism">
+
+                <img
+                    src="./IMG-20261017-WA0337.jpg"
+                    alt="Community ministry activity"
+                    loading="lazy">
+
+                <div class="gallery-caption">
+
+                    <h3>Community Service</h3>
+
+                    <p>Demonstrating the love of Christ.</p>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- SPORTS OUTREACH -->
+
+            <article class="gallery-item reveal"
+                     data-category="sports">
+
+                <img
+                    src="./IMG-20261017-WA0238.jpg"
+                    alt="Sports outreach activity"
+                    loading="lazy">
+
+                <div class="gallery-caption">
+
+                    <h3>Sports Outreach</h3>
+
+                    <p>Building relationships through sports.</p>
+
+                </div>
+
+            </article>
+<article class="gallery-item reveal"
+                     data-category="sports">
+
+                <img
+                    src="./IMG-20261017-WA0208.jpg"
+                    alt="Sports outreach activity"
+                    loading="lazy">
+
+                <div class="gallery-caption">
+
+                    <h3>Sports Outreach</h3>
+
+                    <p>Building relationships through sports.</p>
+
+                </div>
+
+            </article>
+<article class="gallery-item reveal"
+                     data-category="sports">
+
+                <img
+                    src="./IMG-20261017-WA0407.jpg"
+                    alt="Sports outreach activity"
+                    loading="lazy">
+
+                <div class="gallery-caption">
+
+                    <h3>Sports
+                    share</h3>
+
+                    <p>Building love and care sports.</p>
+
+                </div>
+
+            </article>
+
+
+            </article>
+<article class="gallery-item reveal"
+                     data-category="sports">
+
+                <img
+                    src="./IMG-20261017-WA0244.jpg"
+                    alt="Dance activity"
+                    loading="lazy">
+
+                <div class="gallery-caption">
+
+                    <h3>Dance with us</h3>
+
+                    <p>worship dance.</p>
+
+                </div>
+
+            </article>
+           
+
+
+
+
+
+            <!-- FELLOWSHIP -->
+
+            <article class="gallery-item reveal"
+                     data-category="people">
+
+                <img
+                    src="./IMG-20261017-WA0130.jpg"
+                    alt="Ministry members together"
+                    loading="lazy">
+
+                <div class="gallery-caption">
+
+                    <h3>Fellowship</h3>
+
+                    <p>United through faith and love.</p>
+
+                </div>
+
+            </article>
+
+
+            <article class="gallery-item reveal"
+                     data-category="people">
+
+                <img
+                    src="./IMG-20261017-WA0303.jpg"
+                    alt="People in fellowship"
+                    loading="lazy">
+
+                <div class="gallery-caption">
+
+                    <h3>Building Relationships</h3>
+
+                    <p>Encouraging one another.</p>
+
+                </div>
+
+            </article>
+
+
+            <article class="gallery-item reveal"
+                     data-category="people">
+
+                <img
+                    src="./IMG-20261017-WA0305.jpg"
+                    alt="Fellowship activity"
+                    loading="lazy">
+
+                <div class="gallery-caption">
+
+                    <h3>Unity &amp; Fellowship</h3>
+
+                    <p>Growing together in faith.</p>
+
+                </div>
+
+            </article>
+
+
+            <article class="gallery-item reveal"
+                     data-category="people">
+
+                <img
+                    src="./IMG-20261017-WA0238.jpg"
+                    alt="Community gathering"
+                    loading="lazy">
+
+                <div class="gallery-caption">
+
+                    <h3>Community Gathering</h3>
+
+                    <p>Connecting with the community.</p>
+
+                </div>
+
+            </article>
+
+
+            <article class="gallery-item reveal"
+                     data-category="people">
+
+                <img
+                    src="./IMG-20261017-WA0312.jpg"
+                    alt="Ministry member portrait"
+                    loading="lazy">
+
+                <div class="gallery-caption">
+
+                    <h3>Ministry Members</h3>
+
+                    <p>Committed to serving God.</p>
+
+                </div>
+
+            </article>
+
+
+
+            <article class="gallery-item reveal"
+                     data-category="people">
+
+                <img
+                    src="./IMG-20261017-WA0341.jpg"
+                    alt="Ministry gathering"
+                    loading="lazy">
+
+                <div class="gallery-caption">
+
+                    <h3>Ministry Gathering</h3>
+
+                    <p>Growing in faith and purpose.</p>
+
+                </div>
+
+            </article>
+
+
+
+
+            <article class="gallery-item reveal"
+                     data-category="people">
+
+                <img
+                    src="./IMG-20261017-WA0408.jpg"
+                    alt="Ministry members serving"
+                    loading="lazy">
+
+                <div class="gallery-caption">
+
+                    <h3>Serving Together</h3>
+
+                    <p>Love expressed through service.</p>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ===== MINISTRY VIDEOS SECTION ===== -->
+<section class="section video-section" id="video">""
+  
+  <div class="video-heading">
+    <span class="video-label">WATCH AND BE BLESSED</span>
+    <h2>Our Ministry Videos</h2>
+    <p>Watch our sermons, prayers, worship, and ministry activities.</p>
+</div>
+
+<div class="videos-grid">
+
+        <div class="video-info">
+            <h3>Powerful Sermon</h3>
+            <p>Listen to the Word of God.</p>
+        </div>
+    </div>
+
+    <!-- VIDEO 2 -->
+    <div class="video-card">
+        <video controls preload="metadata">
+            <source src="./VID-20261017-WA0125.mp4" type="video/mp4">
+            Your browser does not support video playback.
+        </video>
+        <div class="video-info">
+            <h3>Prayer and Worship</h3>
+            <p>Join us in prayer and worship.</p>
+        </div>
+    </div>
+
+    <!-- VIDEO 3 -->
+    <div class="video-card">
+        <video controls preload="metadata">
+            <source src="./VID-20261017-WA0143.mp4" type="video/mp4">
+            Your browser does not support video playback.
+        </video>
+        <div class="video-info">
+            <h3>Ministry Activities</h3>
+            <p>Discover what God is doing through our ministry.</p>
+        </div>
+    </div>
+
+</div>
+
+</section>
+<!-- ===== END MINISTRY VIDEOS SECTION ===== -->
+  
+<!-- ======================================
+     LOCATION
+======================================= -->
+
+<section class="section" id="location">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+
+            <span class="eyebrow">
+                Come and Visit Us
+            </span>
+
+            <h2>Where We Are Located</h2>
+
+            <p>
+
+                We welcome you to join us for worship,
+                prayer, biblical teaching, and fellowship
+                as we grow together in Christ.
+
+            </p>
+
+        </div>
+
+
+        <div class="location-grid">
+
+
+            <div class="location-card reveal">
+
+                <h3>📍 Our Location</h3>
+
+
+                <div class="location-line">
+
+                    <span>🇧🇮</span>
+
+                    <div>
+
+                        <strong>Country</strong>
+
+                        <p>Burundi</p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="location-line">
+
+                    <span>🏙️</span>
+
+                    <div>
+
+                        <strong>Province</strong>
+
+                        <p>Bujumbura Mairie</p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="location-line">
+
+                    <span>📌</span>
+
+                    <div>
+
+                        <strong>Commune</strong>
+
+                        <p>Ntahangwa</p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="location-line">
+
+                    <span>⛪</span>
+
+                    <div>
+
+                        <strong>Zone</strong>
+
+                        <p>Kinama</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="location-welcome reveal">
+
+                <h3>You Are Welcome!</h3>
+
+                <p>
+
+                    Whether you are seeking prayer,
+                    biblical guidance, Christian fellowship,
+                    or an opportunity to serve, we invite
+                    you to connect with Remnant of Lord Ministries.
+
+                </p>
+
+
+                <div>
+
+                    <a
+                        href="#contact"
+                        class="btn btn-gold">
+
+                        Contact Our Ministry →
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ======================================
+     CONTACT US
+======================================= -->
+
+<section class="section contact-section" id="contact">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+
+            <span class="eyebrow">
+                We Would Love to Hear From You
+            </span>
+
+            <h2>Connect With Our Ministry</h2>
+
+            <p>
+
+                Whether you need prayer, want to learn
+                more about our ministry, or would like
+                to participate in our activities,
+                please get in touch.
+
+            </p>
+
+        </div>
+
+
+
+        <div class="contact-grid">
+
+
+            <div class="contact-intro reveal">
+
+                <h3>Get in Touch</h3>
+
+                <p>
+
+                    Reach us by phone, WhatsApp, or email.
+                    We look forward to connecting with you.
+
+                </p>
+
+
+
+                <a
+                    class="contact-method"
+                    href="tel:+25768228027">
+
+                    <div class="contact-icon">📞</div>
+
+                    <div>
+
+                        <strong>Phone</strong>
+
+                        <p>+257 68 22 80 27</p>
+
+                    </div>
+
+                </a>
+
+
+
+                <a
+                    class="contact-method"
+                    href="https://wa.me/25768228027"
+                    target="_blank"
+                    rel="noopener noreferrer">
+
+                    <div class="contact-icon">💬</div>
+
+                    <div>
+
+                        <strong>WhatsApp</strong>
+
+                        <p>Chat with our ministry</p>
+
+                    </div>
+
+                </a>
+
+
+
+                <a
+                    class="contact-method"
+                    href="mailto:elvissondera8a@gmail.com">
+
+                    <div class="contact-icon">✉️</div>
+
+                    <div>
+
+                        <strong>Email</strong>
+
+                        <p>elvissondera8a@gmail.com</p>
+
+                    </div>
+
+                </a>
+
+            </div>
+
+
+
+            <div class="social-card reveal">
+
+                <h3>Connect With Us Online</h3>
+
+                <p>
+
+                    Follow our social media platforms
+                    to receive biblical teachings,
+                    watch ministry activities, and
+                    stay connected with our events.
+
+                </p>
+
+
+
+                <!--
+                Add each official Facebook or Instagram
+                URL in the href attribute when available.
+                -->
+
+
+                <a
+                    class="social-link"
+                    href="https://www.facebook.com/"
+                    target="_blank"
+                    rel="noopener noreferrer">
+
+                    <div>📘 Facebook — Remnant Familly</div>
+
+                    <span>Visit →</span>
+
+                </a>
+
+
+
+                <a
+                    class="social-link"
+                    href="https://www.facebook.com/"
+                    target="_blank"
+                    rel="noopener noreferrer">
+
+                    <div>📘 Facebook — Ev Elson</div>
+
+                    <span>Visit →</span>
+
+                </a>
+
+
+
+                <a
+                    class="social-link"
+                    href="https://www.facebook.com/"
+                    target="_blank"
+                    rel="noopener noreferrer">
+
+                    <div>⛪ Remnant of Lord Ministries</div>
+
+                    <span>Visit →</span>
+
+                </a>
+
+
+
+                <a
+                    class="social-link"
+                    href="https://www.facebook.com/"
+                    target="_blank"
+                    rel="noopener noreferrer">
+
+                    <div>🎙️ Evangelist Elvis Sondera</div>
+
+                    <span>Visit →</span>
+
+                </a>
+
+
+
+                <a
+                    class="social-link"
+                    href="https://www.instagram.com/"
+                    target="_blank"
+                    rel="noopener noreferrer">
+
+                    <div>📸 Instagram — Ev Elson</div>
+
+                    <span>Visit →</span>
+
+                </a>
+
+
+
+                <a
+                    class="social-link"
+                    href="https://www.youtube.com/"
+                    target="_blank"
+                    rel="noopener noreferrer">
+
+                    <div>▶️ YouTube — Remnant TV</div>
+
+                    <span>Visit →</span>
+
+                </a>
+
+
+                <p style="margin-top:20px;font-size:12px;">
+
+                    Official profile links can be added
+                    when their exact addresses are available.
+
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+
+
+<!-- ======================================
+     FOOTER
+======================================= -->
+
+<footer>
+
+    <div class="container">
+
+
+        <div class="footer-top">
+
+
+            <div class="footer-about">
+
+                <div class="footer-brand">
+
+                    <img
+                        src="./LOGO png.png"
+                        alt="Remnant of Lord Ministries logo">
+
+                    <h3>
+                        REMNANT OF<br>
+                        LORD MINISTRIES
+                    </h3>
+
+                </div>
+
+
+                <p>
+
+                    A family of believers united through
+                    Jesus Christ and the power of the
+                    Holy Spirit to save, heal, deliver,
+                    and rebuild.
+
+                </p>
+
+            </div>
+
+
+
+            <div class="footer-column">
+
+                <h4>Quick Links</h4>
+
+                <a href="#home">Home</a>
+
+                <a href="#about">About Us</a>
+
+                <a href="#vision">Our Vision</a>
+
+                <a href="#leadership">Leadership</a>
+
+                <a href="#gallery">Gallery</a>
+
+                <a href="#sermons">Sermons &amp; Teachings</a>
+<a href="#video"
+>video</a>
+            </div>
+
+
+
+            <div class="footer-column">
+
+                <h4>Contact Information</h4>
+
+                <p>Kinama, Ntahangwa</p>
+
+                <p>Bujumbura Mairie, Burundi</p>
+
+                <p style="margin-top:10px;">
+                    +257 68 22 80 27
+                </p>
+
+                <p>elvissondera8a@gmail.com</p>
+
+                <p style="margin-top:10px;color:#f4c65e;">
+
+                    LOVE • DIRECTION • POWER
+
+                </p>
+
+            </div>
+
+
+        </div>
+
+
+
+        <div class="footer-bottom">
+
+            <p>
+                © <span id="year"></span>
+                Remnant of Lord Ministries.
+                All rights reserved.
+            </p>
+
+            <p>
+                We Are the Spirit of Dominion.
+            </p>
+
+        </div>
+
+
+    </div>
+
+</footer>
+
+
+
+<!-- ======================================
+     FLOATING WHATSAPP BUTTON
+======================================= -->
+
+<a
+    href="https://wa.me/25768228027"
+    class="whatsapp-float"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Contact us on WhatsApp">
+
+    ☎
+
+</a>
+
+
+
+<!-- ======================================
+     BACK TO TOP BUTTON
+======================================= -->
+
+<button
+    class="back-top"
+    id="backTop"
+    aria-label="Back to top">
+
+    ↑
+
+</button>
+
+
+
+<!-- ======================================
+     JAVASCRIPT
+======================================= -->
+
+<script>
+
+/* ========================================
+   1. MOBILE NAVIGATION MENU
+======================================== */
+
+const menuToggle = document.getElementById("menuToggle");
+
+const navLinks = document.getElementById("navLinks");
+
+
+menuToggle.addEventListener("click", function () {
+
+    const isOpen = navLinks.classList.toggle("open");
+
+    menuToggle.setAttribute("aria-expanded", isOpen);
+
+    menuToggle.textContent = isOpen ? "✕" : "☰";
+
+});
+
+
+/* Close the mobile menu when a link is clicked. */
+
+document.querySelectorAll("#navLinks a").forEach(function (link) {
+
+    link.addEventListener("click", function () {
+
+        navLinks.classList.remove("open");
+
+        menuToggle.setAttribute("aria-expanded", "false");
+
+        menuToggle.textContent = "☰";
+
+    });
+
+});
+
+
+/* ========================================
+   2. SCROLL REVEAL ANIMATIONS
+======================================== */
+
+const revealElements = document.querySelectorAll(".reveal");
+
+
+if ("IntersectionObserver" in window) {
+
+    const observer = new IntersectionObserver(
+
+        function (entries, observer) {
+
+            entries.forEach(function (entry) {
+
+                if (entry.isIntersecting) {
+
+                    entry.target.classList.add("show");
+
+                    observer.unobserve(entry.target);
+
+                }
+
+            });
+
+        },
+
+        {
+            threshold: 0.12
+        }
+
+    );
+
+
+    revealElements.forEach(function (element) {
+
+        observer.observe(element);
+
+    });
+
+} else {
+
+    revealElements.forEach(function (element) {
+
+        element.classList.add("show");
+
+    });
+
+}
+
+
+/* ========================================
+   3. GALLERY FILTERS
+======================================== */
+
+const filterButtons = document.querySelectorAll(".filter-btn");
+
+const galleryItems = document.querySelectorAll(".gallery-item");
+
+
+filterButtons.forEach(function (button) {
+
+    button.addEventListener("click", function () {
+
+        const selectedCategory = button.dataset.filter;
+
+
+        /* Update the active button. */
+
+        filterButtons.forEach(function (item) {
+
+            item.classList.remove("active");
+
+        });
+
+        button.classList.add("active");
+
+
+        /* Show only the selected category. */
+
+        galleryItems.forEach(function (item) {
+
+            const itemCategory = item.dataset.category;
+
+            const shouldShow =
+                selectedCategory === "all" ||
+                itemCategory === selectedCategory;
+
+            item.hidden = !shouldShow;
+
+        });
+
+    });
+
+});
+
+
+/* ========================================
+   4. BACK TO TOP BUTTON
+======================================== */
+
+const backTop = document.getElementById("backTop");
+
+
+window.addEventListener("scroll", function () {
+
+    if (window.scrollY > 500) {
+
+        backTop.classList.add("visible");
+
+    } else {
+
+        backTop.classList.remove("visible");
+
+    }
+
+});
+
+
+backTop.addEventListener("click", function () {
+
+    window.scrollTo({
+
+        top: 0,
+
+        behavior: "smooth"
+
+    });
+
+});
+
+
+/* ========================================
+   5. AUTOMATIC COPYRIGHT YEAR
+======================================== */
+
+document.getElementById("year").textContent =
+    new Date().getFullYear();
+
+
+/* ========================================
+   6. IMAGE ERROR HANDLING
+======================================== */
+
+/*
+   If an image filename is incorrect, this script
+   displays a clear placeholder instead of leaving
+   a broken image icon.
+
+   IMPORTANT:
+   The image will still need to be uploaded with
+   the correct filename for the real photo to show.
+*/
+
+document.querySelectorAll("img").forEach(function (img) {
+
+    img.addEventListener("error", function () {
+
+        if (img.dataset.errorHandled) {
+
+            return;
+
+        }
+
+        img.dataset.errorHandled = "true";
+
+        img.style.background = "#e8edf5";
+
+        img.style.minHeight = "60px";
+
+        img.style.objectFit = "contain";
+
+        img.alt = "Image unavailable — check the image filename";
+
+    });
+
+});
+
+
+/* ========================================
+   7. WELCOME MESSAGE IN THE CONSOLE
+======================================== */
+
+console.log(
+    "Welcome to Remnant of Lord Ministries."
+);
+
+console.log(
+    "Love • Direction • Power"
+);
+
+</script>
+
+</body>
+</html>
