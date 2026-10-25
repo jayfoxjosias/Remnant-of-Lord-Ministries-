@@ -1,0 +1,18 @@
+backend:
+  name: turbo-github
+  turbo_site_id: fbce7062-15b4-4ae2-bf7b-a51adf13a9ca
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "pages"
+    label: "Website Content"
+    files:
+      - name: "home"
+        label: "Homepage"
+        file: "content/home.yml"
+        fields:
+          - { label: "Website Title", name: "title", widget: "string" }
+          - { label: "Welcome Message", name: "welcome", widget: "text" }
